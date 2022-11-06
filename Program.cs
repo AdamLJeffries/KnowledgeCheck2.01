@@ -26,8 +26,15 @@ internal static class Program
             myClass.Head = Console.ReadLine();
 
 
-            Console.WriteLine($"Your Cat has" + myClass.Head + myClass.Legs + myClass.Tail);
-
+            Console.WriteLine($"Your Cat has  " + myClass.Head + "   head!");
+            Console.WriteLine($"Your Cat has  " + myClass.Legs + "   legs!");
+            Console.WriteLine($"Your Cat has  " + myClass.Tail + "   tail!");
+            Console.WriteLine("An exposed belly is an invitation to pet. 50% chance you are welcomed to experience");
+            Console.WriteLine("the feeling of dancing with baby angels in the fluffy clouds of heaven!");
+            Console.WriteLine("Equal chance you are not permitted and met with a storm of razor sharp claws and teeth");
+            Console.WriteLine("in the fur-ocious depths of cat hell.");
+            
+            Console.WriteLine("Proceed carefully my friends!");
         }
 
     }    // Print out the list of records using Console.WriteLine()
