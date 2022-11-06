@@ -61,8 +61,8 @@ internal static class Program
         public string Name { get; set; }
 
         public void makeNoise()
-            {
+        {
             Console.WriteLine("Meow!");
-        }
+        }            
     }
 }
